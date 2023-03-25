@@ -1,7 +1,7 @@
 # SATFAB BPP Launch Code
 ---
 ## Introduction
----
+
 ### Background
 The Satellite Fabrication (SATFAB) project is one of the teams that make up the Students for the Exploration and Development of Space (SEDS) at the University of Maryland. The team was founded to design build and test custom satellite components to eventually send to space.
 ### Goals
@@ -14,7 +14,7 @@ This project aims to validate the flight capability of our hardware and software
 * List of major and minor components with BOM and other helpful documentation
 
 ## Boards & Components 
----
+
 * On Board Computer (OBC)
   * RP2040 Microcontroller 
   * DS2485 1-wire Master
@@ -31,14 +31,14 @@ This project aims to validate the flight capability of our hardware and software
 
 * SAM-M8Q GPS antenna module
 ## FSM Model 
----
+
 The Finite State Machine model controls what our satellite does during different phases of the mission. The satellite can only be in a single state at a time.
 ### Standby
 ### Flight View
 ### Flight
 ### Tree 
 ## Software Breakdown
----
+
 ### barometer.c 
 barometer.c file initilizes the barometer module and has functions to collect temperature and pressure data from it. 
 ##### Quick info
